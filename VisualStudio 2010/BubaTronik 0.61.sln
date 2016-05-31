@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BubaTronik", "..\BubaTronik.vcxproj", "{B10F0386-2C63-4512-80A4-35DA6FD9C82A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF} = {32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IdiomaCastellano", "..\IdiomaCastellano\IdiomaCastellano.vcxproj", "{1D80264B-B8DB-427C-A18F-08A16A97EAE8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IdiomaCatala", "..\IdiomaCatala\IdiomaCatala.vcxproj", "{A5E9F805-C695-4886-82BD-8244FD6EA5A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DWL", "..\..\DWL\Visual Studio 2010\DWL.vcxproj", "{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Itanium Release|Win32 = Itanium Release|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B10F0386-2C63-4512-80A4-35DA6FD9C82A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B10F0386-2C63-4512-80A4-35DA6FD9C82A}.Debug|Win32.Build.0 = Debug|Win32
+		{B10F0386-2C63-4512-80A4-35DA6FD9C82A}.Itanium Release|Win32.ActiveCfg = Release|Win32
+		{B10F0386-2C63-4512-80A4-35DA6FD9C82A}.Itanium Release|Win32.Build.0 = Release|Win32
+		{B10F0386-2C63-4512-80A4-35DA6FD9C82A}.Release|Win32.ActiveCfg = Release|Win32
+		{B10F0386-2C63-4512-80A4-35DA6FD9C82A}.Release|Win32.Build.0 = Release|Win32
+		{1D80264B-B8DB-427C-A18F-08A16A97EAE8}.Debug|Win32.ActiveCfg = Release|Win32
+		{1D80264B-B8DB-427C-A18F-08A16A97EAE8}.Debug|Win32.Build.0 = Release|Win32
+		{1D80264B-B8DB-427C-A18F-08A16A97EAE8}.Itanium Release|Win32.ActiveCfg = Release|Win32
+		{1D80264B-B8DB-427C-A18F-08A16A97EAE8}.Itanium Release|Win32.Build.0 = Release|Win32
+		{1D80264B-B8DB-427C-A18F-08A16A97EAE8}.Release|Win32.ActiveCfg = Release|Win32
+		{1D80264B-B8DB-427C-A18F-08A16A97EAE8}.Release|Win32.Build.0 = Release|Win32
+		{A5E9F805-C695-4886-82BD-8244FD6EA5A2}.Debug|Win32.ActiveCfg = Release|Win32
+		{A5E9F805-C695-4886-82BD-8244FD6EA5A2}.Debug|Win32.Build.0 = Release|Win32
+		{A5E9F805-C695-4886-82BD-8244FD6EA5A2}.Itanium Release|Win32.ActiveCfg = Release|Win32
+		{A5E9F805-C695-4886-82BD-8244FD6EA5A2}.Itanium Release|Win32.Build.0 = Release|Win32
+		{A5E9F805-C695-4886-82BD-8244FD6EA5A2}.Release|Win32.ActiveCfg = Release|Win32
+		{A5E9F805-C695-4886-82BD-8244FD6EA5A2}.Release|Win32.Build.0 = Release|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Debug|Win32.Build.0 = Debug|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Itanium Release|Win32.ActiveCfg = Release|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Itanium Release|Win32.Build.0 = Release|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Release|Win32.ActiveCfg = Release|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

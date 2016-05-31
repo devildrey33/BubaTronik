@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ventanas">
+      <UniqueIdentifier>{10b0c9ef-fd8f-4d74-9ae5-be4b94d5873b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Controles">
+      <UniqueIdentifier>{2e8ebecf-5e77-4a89-a83b-343829feddac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Arbol OpcionesBasicas">
+      <UniqueIdentifier>{850034ad-acd4-4edf-9990-ec05934d3dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Arbol BaseDatos">
+      <UniqueIdentifier>{9f46b7ba-596a-4041-8738-1da8b375d7f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Control Presentacion">
+      <UniqueIdentifier>{43d1417b-4210-4805-9ff1-926e3d760ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Volumen">
+      <UniqueIdentifier>{c30e9d41-0e19-4d1f-b64f-3ac7989077f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Lista Canciones">
+      <UniqueIdentifier>{04a45878-249a-40b5-b60a-15f75b770fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Botonera">
+      <UniqueIdentifier>{26be27db-ce94-4f3d-b436-24789b700090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Shufle y Repeat">
+      <UniqueIdentifier>{33dfe9ba-c73e-4e3a-abc5-dc8eeebab165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Oscy">
+      <UniqueIdentifier>{ab394145-2340-42d3-bce7-f57c48531e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\MediaPlayer">
+      <UniqueIdentifier>{11940662-1a95-4842-9b52-00fa56fa31e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Marca">
+      <UniqueIdentifier>{f6930e81-0867-4760-8b47-f641bc9b0925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\CerrarMaximizarMinimizar">
+      <UniqueIdentifier>{95d1fb81-6c33-445f-b7ba-28fa8d563a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Control TeclaRapida">
+      <UniqueIdentifier>{8a4dfb32-9bc5-4409-aeca-1aeccd4e8605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Control TiempoActual">
+      <UniqueIdentifier>{65a4f78b-96c5-47b6-ba20-a334dac0f76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Audio / Video">
+      <UniqueIdentifier>{0d7a8661-190b-4451-b9ec-18e2bbf5540e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Audio / Video\FMOD Ex">
+      <UniqueIdentifier>{89b6c3bb-e6da-487e-a90e-deac4bf6a255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Audio / Video\VLC">
+      <UniqueIdentifier>{428205f9-8eb5-493e-ae99-8c0336d25d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BD y Datos">
+      <UniqueIdentifier>{ed597bca-c076-4ec3-923a-730192d8d8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BD y Datos\Skin">
+      <UniqueIdentifier>{ca00019b-28fc-4847-9b18-c1276b2c56cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{c93f9ed7-4db0-4cde-bfa1-6a7160ee896e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Premade">
+      <UniqueIdentifier>{412a2f6a-681f-4e37-a952-f33903c89375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Definiciones">
+      <UniqueIdentifier>{8f233695-9589-4c12-94a4-83097d9b7088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Control Presentacion\Escena">
+      <UniqueIdentifier>{dd5aad20-2a28-46a3-8d31-cf77cb435b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BD y Datos\Tipos">
+      <UniqueIdentifier>{0c34918f-70c8-42c4-b6fe-11fee01e47ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ventanas\VentanasTranslucidas">
+      <UniqueIdentifier>{63d81592-9b38-47ac-95bd-4d3af980a54f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PlayerMenuEx.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="VentanaEx.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="VentanaMensaje.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="VentanaMensaje_Actualizacion.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="VentanaPlayerEx.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="ArbolOpcionesBasicas.cpp">
+      <Filter>Controles\Arbol OpcionesBasicas</Filter>
+    </ClCompile>
+    <ClCompile Include="ArbolBaseDatos.cpp">
+      <Filter>Controles\Arbol BaseDatos</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlPresentacionEx.cpp">
+      <Filter>Controles\Control Presentacion</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlVolumen.cpp">
+      <Filter>Controles\Volumen</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaCanciones.cpp">
+      <Filter>Controles\Lista Canciones</Filter>
+    </ClCompile>
+    <ClCompile Include="Botonera.cpp">
+      <Filter>Controles\Botonera</Filter>
+    </ClCompile>
+    <ClCompile Include="ShufleRepeat.cpp">
+      <Filter>Controles\Shufle y Repeat</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlOscyloscope.cpp">
+      <Filter>Controles\Oscy</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlesMediaPlayer.cpp">
+      <Filter>Controles\MediaPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlMediaPlayer.cpp">
+      <Filter>Controles\MediaPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlMarca.cpp">
+      <Filter>Controles\Marca</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlCerrarMinimizar.cpp">
+      <Filter>Controles\CerrarMaximizarMinimizar</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlTeclaRapida.cpp">
+      <Filter>Controles\Control TeclaRapida</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlTiempoActual.cpp">
+      <Filter>Controles\Control TiempoActual</Filter>
+    </ClCompile>
+    <ClCompile Include="CancionFMOD.cpp">
+      <Filter>Engine Audio / Video</Filter>
+    </ClCompile>
+    <ClCompile Include="InformacionArchivoEx.cpp">
+      <Filter>Engine Audio / Video</Filter>
+    </ClCompile>
+    <ClCompile Include="SistemaFMOD.cpp">
+      <Filter>Engine Audio / Video</Filter>
+    </ClCompile>
+    <ClCompile Include="SistemaMedia.cpp">
+      <Filter>Engine Audio / Video</Filter>
+    </ClCompile>
+    <ClCompile Include="SistemaVLC.cpp">
+      <Filter>Engine Audio / Video</Filter>
+    </ClCompile>
+    <ClCompile Include="AsociarArchivos.cpp">
+      <Filter>BD y Datos</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDatos.cpp">
+      <Filter>BD y Datos</Filter>
+    </ClCompile>
+    <ClCompile Include="BuscarActualizaciones.cpp">
+      <Filter>BD y Datos</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfiguracionPlayer.cpp">
+      <Filter>BD y Datos</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadBuscarArchivos.cpp">
+      <Filter>BD y Datos</Filter>
+    </ClCompile>
+    <ClCompile Include="TipoArchivo.cpp">
+      <Filter>BD y Datos</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinPlayer.cpp">
+      <Filter>BD y Datos\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="BubaTronik.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BubaTronikApp.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Base\Premade</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjetoEscena.cpp">
+      <Filter>Controles\Control Presentacion\Escena</Filter>
+    </ClCompile>
+    <ClCompile Include="Escena.cpp">
+      <Filter>Controles\Control Presentacion\Escena</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjetoEscenaTexto.cpp">
+      <Filter>Controles\Control Presentacion\Escena</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjetoEscenaFrame.cpp">
+      <Filter>Controles\Control Presentacion\Escena</Filter>
+    </ClCompile>
+    <ClCompile Include="VentanaLog.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="EnviarEmail.cpp" />
+    <ClCompile Include="VentanaDump.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="VentanaPrincipalEx.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="VentanaTranslucida.cpp">
+      <Filter>Ventanas\VentanasTranslucidas</Filter>
+    </ClCompile>
+    <ClCompile Include="VentanaTranslucidaLista.cpp">
+      <Filter>Ventanas\VentanasTranslucidas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlayerMenuEx.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="VentanaEx.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="VentanaMensaje.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="VentanaMensaje_Actualizacion.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="VentanaPlayerEx.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbolOpcionesBasicas.h">
+      <Filter>Controles\Arbol OpcionesBasicas</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbolBaseDatos.h">
+      <Filter>Controles\Arbol BaseDatos</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlPresentacionEx.h">
+      <Filter>Controles\Control Presentacion</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlVolumen.h">
+      <Filter>Controles\Volumen</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaCanciones.h">
+      <Filter>Controles\Lista Canciones</Filter>
+    </ClInclude>
+    <ClInclude Include="Botonera.h">
+      <Filter>Controles\Botonera</Filter>
+    </ClInclude>
+    <ClInclude Include="ShufleRepeat.h">
+      <Filter>Controles\Shufle y Repeat</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlOscyloscope.h">
+      <Filter>Controles\Oscy</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlesMediaPlayer.h">
+      <Filter>Controles\MediaPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlMediaPlayer.h">
+      <Filter>Controles\MediaPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlMarca.h">
+      <Filter>Controles\Marca</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlCerrarMinimizar.h">
+      <Filter>Controles\CerrarMaximizarMinimizar</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlTeclaRapida.h">
+      <Filter>Controles\Control TeclaRapida</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlTiempoActual.h">
+      <Filter>Controles\Control TiempoActual</Filter>
+    </ClInclude>
+    <ClInclude Include="CancionFMOD.h">
+      <Filter>Engine Audio / Video</Filter>
+    </ClInclude>
+    <ClInclude Include="InformacionArchivoEx.h">
+      <Filter>Engine Audio / Video</Filter>
+    </ClInclude>
+    <ClInclude Include="SistemaFMOD.h">
+      <Filter>Engine Audio / Video</Filter>
+    </ClInclude>
+    <ClInclude Include="SistemaMedia.h">
+      <Filter>Engine Audio / Video</Filter>
+    </ClInclude>
+    <ClInclude Include="SistemaVLC.h">
+      <Filter>Engine Audio / Video</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h">
+      <Filter>Engine Audio / Video\FMOD Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.hpp">
+      <Filter>Engine Audio / Video\FMOD Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_codec.h">
+      <Filter>Engine Audio / Video\FMOD Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_dsp.h">
+      <Filter>Engine Audio / Video\FMOD Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_errors.h">
+      <Filter>Engine Audio / Video\FMOD Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_memoryinfo.h">
+      <Filter>Engine Audio / Video\FMOD Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_output.h">
+      <Filter>Engine Audio / Video\FMOD Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="stdint.h">
+      <Filter>Engine Audio / Video\VLC</Filter>
+    </ClInclude>
+    <ClInclude Include="AnomaliasStrTp.h">
+      <Filter>BD y Datos</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchivoBinarioPlayer.h">
+      <Filter>BD y Datos</Filter>
+    </ClInclude>
+    <ClInclude Include="AsociarArchivos.h">
+      <Filter>BD y Datos</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDatos.h">
+      <Filter>BD y Datos</Filter>
+    </ClInclude>
+    <ClInclude Include="BuscarActualizaciones.h">
+      <Filter>BD y Datos</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfiguracionPlayer.h">
+      <Filter>BD y Datos</Filter>
+    </ClInclude>
+    <ClInclude Include="MetadatosTag.h">
+      <Filter>BD y Datos</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadBuscarArchivos.h">
+      <Filter>BD y Datos</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoArchivo.h">
+      <Filter>BD y Datos</Filter>
+    </ClInclude>
+    <ClInclude Include="Unidades_de_Disco.h">
+      <Filter>BD y Datos</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinPlayer.h">
+      <Filter>BD y Datos\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="BubaTronikApp.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Idioma.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Teclado.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigBubaTronik.h">
+      <Filter>Base\Premade</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Base\Premade</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Base\Premade</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Base\Premade</Filter>
+    </ClInclude>
+    <ClInclude Include="Definiciones.h">
+      <Filter>Base\Definiciones</Filter>
+    </ClInclude>
+    <ClInclude Include="DimensionesFijas.h">
+      <Filter>Base\Definiciones</Filter>
+    </ClInclude>
+    <ClInclude Include="IDS_Definidas.h">
+      <Filter>Base\Definiciones</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjetoEscena.h">
+      <Filter>Controles\Control Presentacion\Escena</Filter>
+    </ClInclude>
+    <ClInclude Include="Escena.h">
+      <Filter>Controles\Control Presentacion\Escena</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjetoEscenaFrame.h">
+      <Filter>Controles\Control Presentacion\Escena</Filter>
+    </ClInclude>
+    <ClInclude Include="VentanaLog.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="TDisco.h">
+      <Filter>BD y Datos\Tipos</Filter>
+    </ClInclude>
+    <ClInclude Include="TGenero.h">
+      <Filter>BD y Datos\Tipos</Filter>
+    </ClInclude>
+    <ClInclude Include="TGrupo.h">
+      <Filter>BD y Datos\Tipos</Filter>
+    </ClInclude>
+    <ClInclude Include="TMedio.h">
+      <Filter>BD y Datos\Tipos</Filter>
+    </ClInclude>
+    <ClInclude Include="TTipo.h">
+      <Filter>BD y Datos\Tipos</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoArbolBaseDatos.h">
+      <Filter>BD y Datos\Tipos</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemListaMedios.h">
+      <Filter>BD y Datos\Tipos</Filter>
+    </ClInclude>
+    <ClInclude Include="StrTp.h">
+      <Filter>BD y Datos\Tipos</Filter>
+    </ClInclude>
+    <ClInclude Include="EnviarEmail.h" />
+    <ClInclude Include="VentanaDump.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="VentanaPrincipalEx.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="VentanaTranslucida.h">
+      <Filter>Ventanas\VentanasTranslucidas</Filter>
+    </ClInclude>
+    <ClInclude Include="VentanaTranslucidaLista.h">
+      <Filter>Ventanas\VentanasTranslucidas</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Adelante_N.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Adelante_P.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Adelante_R.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Atras_N.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Atras_P.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Atras_R.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="BubaTronik.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Catalunya.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\España.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\icon2.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Audio.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Ayuda.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_BD.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_BD_Buscar.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_BD_Revisar.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_BD_Seleccionar.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_BDA.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_BDV.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_C0.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_C1.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_C2.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_C3.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Cancion_adelante.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Cancion_atras.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Cancion_Pausa.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Cancion_Play.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Cancion_Repeat.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Cancion_Shufle.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Cancion_Stop.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Cerrar.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Cerrar_R.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Copiar.ICO">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Disco.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Down.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Eliminar.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Eliminar2.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_EQ.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Estrella.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Estrella2.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Genero.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Grupo.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Guardar.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Inicio.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Lista.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Lista_Buscar.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Lista_Llenna.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Lista_ModificarNombre.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Lista_ModificarPista.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Lista_Vacia.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Marca_Menu.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Minimizar.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Minimizar_R.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Opciones.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_OpcionesV.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Orden.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Pantalla.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Pausa.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Play.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Propiedades.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Restaurar.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Tipo.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_up.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_Video.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_VLC.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Inicio.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\MP3PLayeR.ICO">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Pausa_N.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Pausa_P.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Pausa_R.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Play_N.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Play_P.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Play_R.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Stop_N.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Stop_P.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\Stop_R.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_M3U.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_CDAudio.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_PistaAudio.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_ERRORFATAL.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Iconos\IDI_FMOD.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BubaTronik.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

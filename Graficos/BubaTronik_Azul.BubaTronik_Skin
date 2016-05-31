@@ -1,0 +1,91 @@
+// Archivo contenedor de los datos del skin para BubaTronik ideado el 30/03/2006, modificado el 15/09/2009
+// Este archivo debe construirse segun las siguentes normas
+// -Los comentarios :
+//   Se permiten comentarios en el archivo siempre que la linea donde se va a escribir el comentario 
+//   tenga los dos primeros caracteres con // , tambien podras incluir un comentario al final de un valor usando //
+//
+// -Los datos que deben incluirse
+//   Este archivo contiene todos los colores que utiliza el reproductor BubaTronik para pintar practicamente todo.
+//   Para ello los datos deberan introducirse de esta forma :
+//   	NombreValor = "Valor"       // Comentario (si lo deseas)
+//   	NombreColor = " 55, 28, 10" // Comentario (si lo deseas)
+//   Por supuesto deberas especificar correctamente todos los nombres de cada valor y sus valores bien cerrados con
+//   comillas.
+//
+// -Definir Colores
+//   Para hacer un poco menos ardua la tarea de asignacion de colores se ha incluido la directiva # 
+//   Con ella puedes definir un color y usarlo en varios valores, de esta forma pretendo evitar poner mil colores RGB
+//   Para definir un color deberas hacerlo de esta forma :
+//	#Negro  = "  0   0   0"  // Comentario (si lo deseas)
+//	#Blanco = "255 255 255"  // Comentario (si lo deseas)
+//   Luego podras utilizar ese valor con poner :
+//	NombreColor = "#Color"   // Comentario (Si lo deseas)
+//
+
+// NOTA : NO USAR TABULACIONES
+
+
+// Version de este archivo y ciertas coordenadas basicas de la mascara
+Version              = "3"
+
+
+// Definiciones de los colores mas comunes
+#Borde              = "128 128 128" // Color para los bordes
+#BordeClaro         = "190 190 190" // Color para los bordes
+#DegradadoSuperior  = "200 200 200" // Degradado superior para los controles
+#DegradadoInferior  = "100 100 100" // Degradado inferior para los controles
+#DegradadoResaltado = "210 210 210" // Degradado resaltado para los controles
+#FondoN             = "235 235 235" // Fondo normal del reproductor
+#FondoR             = "245 245 245" // Fondo resaltado del reproductor
+#TextoBasicoN       = "  0   0   0" // Texto normal para las presentaciones
+#TextoBasicoR       = " 64  64  64" // Texto resaltado para las presentaciones
+#TextoBasicoD       = "192 192 192" // Texto desactivado o presionado para las presentaciones
+#TextoControlesN    = "255 255 255" // Texto normal para los controles
+#TextoControlesR    = "255 255   0" // Texto resaltado para los controles
+#TextoControlesD    = "192 192 192" // Texto desactivado o presionado para los controles
+
+
+
+VentanaEx_Borde_Claro                           = "#BordeClaro"
+VentanaEx_Borde_Oscuro                          = "#Borde"
+VentanaEx_Fondo_DegradadoSuperior               = "#DegradadoSuperior"
+VentanaEx_Fondo_DegradadoInferior               = "#DegradadoInferior"
+VentanaEx_Texto_TituloNormal                    = "#TextoControlesN"
+VentanaEx_Texto_TituloSombra                    = "#TextoBasicoN"
+ControlEx_Borde_Normal                          = "120 120 120"
+ControlEx_Borde_Claro                           = "155 155 155"
+ControlEx_Borde_FocoRaton                       = "180 180 180"
+ControlEx_Fondo_DegradadoSuperior               = "192 192 192"
+ControlEx_Fondo_DegradadoInferior               = "128 128 128"
+ControlEx_Fondo_DegradadoResaltado              = "#DegradadoResaltado"
+ControlEx_Fondo_Seleccionado                    = "  0   0 128"
+ControlEx_Texto_Normal                          = "255 255 255"
+ControlEx_Texto_Resaltado                       = "255 255   0"
+ControlEx_Texto_Presionado                      = "192 192 192"
+ContenedorEx_Borde_Normal                       = "120 120 120"
+ContenedorEx_Borde_Resaltado                    = "180 180 180"
+ContenedorEx_Borde_Seleccionado                 = "100 100   0"
+ContenedorEx_Cursor                             = "100 100 100"
+ContenedorEx_Fondo_Claro                        = "255 255 255"
+ContenedorEx_Fondo_Normal                       = "#FondoN"
+ContenedorEx_Fondo_Resaltado                    = "#FondoR"
+ContenedorEx_Fondo_Presionado                   = "  0   0 100"
+ContenedorEx_Fondo_Seleccionado                 = "  0   0 220"
+ContenedorEx_Fondo_SeleccionadoResaltado        = "  0   0 240"
+ContenedorEx_Fondo_SubSeleccionado              = "100 100 235"
+ContenedorEx_Fondo_SubSeleccionadoResaltado     = "100 100 255"
+ContenedorEx_Texto_Normal                       = "#TextoBasicoN"
+ContenedorEx_Texto_Resaltado                    = "#TextoBasicoR"
+ContenedorEx_Texto_Presionado                   = "#TextoBasicoD"
+ContenedorEx_Texto_Seleccionado                 = "255 255 255"
+ContenedorEx_Texto_SeleccionadoResaltado        = "255 255   0"
+ContenedorEx_Texto_SubSeleccionado              = "255 255 255"
+ContenedorEx_Texto_SubSeleccionadoResaltado     = "255 255   0"
+ContenedorEx_Controles_Texto_Normal             = "  0   0   0"
+ContenedorEx_Controles_Texto_Resaltado          = "255 255 255"
+ContenedorEx_Controles_Texto_Presionado         = "192 192 192"
+ContenedorEx_Controles_Fondo_Normal             = "250 250 250"
+ContenedorEx_Controles_Fondo_Resaltado          = "  0   0 220"
+ContenedorEx_Controles_Fondo_Presionado         = "128 128 128"
+
+// FIN

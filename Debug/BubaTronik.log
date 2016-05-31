@@ -1,0 +1,117 @@
+﻿Compilación iniciada a las 14/03/2014 13:41:26.
+     1>Proyecto "C:\devildrey33\C++\BubaTronik 0.61\BubaTronik\BubaTronik.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\BubaTronik.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:none stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\BubaTronik.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:none EnviarEmail.cpp Escena.cpp ObjetoEscena.cpp ObjetoEscenaFrame.cpp ObjetoEscenaTexto.cpp PlayerMenuEx.cpp VentanaDump.cpp VentanaEx.cpp VentanaLog.cpp VentanaMensaje.cpp VentanaMensaje_Actualizacion.cpp VentanaPlayerEx.cpp ArbolOpcionesBasicas.cpp ArbolBaseDatos.cpp ControlPresentacionEx.cpp ControlVolumen.cpp ListaCanciones.cpp Botonera.cpp ShufleRepeat.cpp ControlOscyloscope.cpp ControlesMediaPlayer.cpp ControlMediaPlayer.cpp ControlMarca.cpp ControlCerrarMinimizar.cpp ControlTeclaRapida.cpp ControlTiempoActual.cpp CancionFMOD.cpp InformacionArchivoEx.cpp SistemaFMOD.cpp SistemaMedia.cpp SistemaVLC.cpp AsociarArchivos.cpp BaseDatos.cpp BuscarActualizaciones.cpp ConfiguracionPlayer.cpp ThreadBuscarArchivos.cpp TipoArchivo.cpp SkinPlayer.cpp BubaTronik.cpp BubaTronikApp.cpp VentanaPrincipalEx.cpp VentanaTranslucida.cpp VentanaTranslucidaLista.cpp
+         VentanaTranslucidaLista.cpp
+         VentanaTranslucida.cpp
+         VentanaPrincipalEx.cpp
+         BubaTronikApp.cpp
+         BubaTronik.cpp
+     1>c:\devildrey33\c++\bubatronik 0.61\dwl\include\dwlaplicacion.h(156): warning C4996: 'GetVersionExW': se declaró desusado
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442) : vea la declaración de 'GetVersionExW'
+                 c:\devildrey33\c++\bubatronik 0.61\dwl\include\dwlaplicacion.h(151) : durante la compilación de la función miembro de plantilla de clase 'void DWL::DWLSO<BubaTronikApp>::_Iniciar(void)'
+                 c:\devildrey33\c++\bubatronik 0.61\dwl\include\dwlaplicacion.h(205) : vea la referencia a la creación de instancias de plantilla de función 'void DWL::DWLSO<BubaTronikApp>::_Iniciar(void)' que se está compilando
+                 c:\devildrey33\c++\bubatronik 0.61\dwl\include\dwlaplicacion.h(214) : vea la referencia a la creación de instancias de plantilla de clase 'DWL::DWLSO<BubaTronikApp>' que se está compilando
+                 c:\devildrey33\c++\bubatronik 0.61\bubatronik\bubatronikapp.h(132) : vea la referencia a la creación de instancias de plantilla de clase 'DWL::DWL_Iniciar<BubaTronikApp>' que se está compilando
+         SkinPlayer.cpp
+         TipoArchivo.cpp
+         ThreadBuscarArchivos.cpp
+         ConfiguracionPlayer.cpp
+         BuscarActualizaciones.cpp
+         BaseDatos.cpp
+         AsociarArchivos.cpp
+         SistemaVLC.cpp
+         SistemaMedia.cpp
+         SistemaFMOD.cpp
+         InformacionArchivoEx.cpp
+         CancionFMOD.cpp
+         ControlTiempoActual.cpp
+         ControlTeclaRapida.cpp
+         ControlCerrarMinimizar.cpp
+         Generando código...
+         Compilando...
+         ControlMarca.cpp
+         ControlMediaPlayer.cpp
+         ControlesMediaPlayer.cpp
+         ControlOscyloscope.cpp
+         ShufleRepeat.cpp
+         Botonera.cpp
+         ListaCanciones.cpp
+         ControlVolumen.cpp
+         ControlPresentacionEx.cpp
+         ArbolBaseDatos.cpp
+         ArbolOpcionesBasicas.cpp
+         VentanaPlayerEx.cpp
+         VentanaMensaje_Actualizacion.cpp
+         VentanaMensaje.cpp
+         VentanaLog.cpp
+         VentanaEx.cpp
+         VentanaDump.cpp
+         PlayerMenuEx.cpp
+         ObjetoEscenaTexto.cpp
+         ObjetoEscenaFrame.cpp
+         Generando código...
+         Compilando...
+         ObjetoEscena.cpp
+         Escena.cpp
+         EnviarEmail.cpp
+         Generando código...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\BubaTronik.res" BubaTronik.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\BubaTronik.exe" /INCREMENTAL /NOLOGO ..\DWL\Debug\DWL.lib libvlc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\BubaTronik.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\BubaTronik.lib" /MACHINE:X86 /SAFESEH Debug\BubaTronik.res
+         Debug\EnviarEmail.obj
+         Debug\Escena.obj
+         Debug\ObjetoEscena.obj
+         Debug\ObjetoEscenaFrame.obj
+         Debug\ObjetoEscenaTexto.obj
+         Debug\PlayerMenuEx.obj
+         Debug\VentanaDump.obj
+         Debug\VentanaEx.obj
+         Debug\VentanaLog.obj
+         Debug\VentanaMensaje.obj
+         Debug\VentanaMensaje_Actualizacion.obj
+         Debug\VentanaPlayerEx.obj
+         Debug\ArbolOpcionesBasicas.obj
+         Debug\ArbolBaseDatos.obj
+         Debug\ControlPresentacionEx.obj
+         Debug\ControlVolumen.obj
+         Debug\ListaCanciones.obj
+         Debug\Botonera.obj
+         Debug\ShufleRepeat.obj
+         Debug\ControlOscyloscope.obj
+         Debug\ControlesMediaPlayer.obj
+         Debug\ControlMediaPlayer.obj
+         Debug\ControlMarca.obj
+         Debug\ControlCerrarMinimizar.obj
+         Debug\ControlTeclaRapida.obj
+         Debug\ControlTiempoActual.obj
+         Debug\CancionFMOD.obj
+         Debug\InformacionArchivoEx.obj
+         Debug\SistemaFMOD.obj
+         Debug\SistemaMedia.obj
+         Debug\SistemaVLC.obj
+         Debug\AsociarArchivos.obj
+         Debug\BaseDatos.obj
+         Debug\BuscarActualizaciones.obj
+         Debug\ConfiguracionPlayer.obj
+         Debug\ThreadBuscarArchivos.obj
+         Debug\TipoArchivo.obj
+         Debug\SkinPlayer.obj
+         Debug\BubaTronik.obj
+         Debug\BubaTronikApp.obj
+         Debug\stdafx.obj
+         Debug\VentanaPrincipalEx.obj
+         Debug\VentanaTranslucida.obj
+         Debug\VentanaTranslucidaLista.obj
+         "C:\devildrey33\C++\BubaTronik 0.61\BubaTronik\Idiomas\IdiomaCastellano.lib"
+         "C:\devildrey33\C++\BubaTronik 0.61\BubaTronik\Idiomas\IdiomaCatala.lib"
+     1>EnviarEmail.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/SAFESEH'
+         BubaTronik.vcxproj -> C:\devildrey33\C++\BubaTronik 0.61\BubaTronik\Debug\BubaTronik.exe
+     1>Compilación del proyecto terminada "C:\devildrey33\C++\BubaTronik 0.61\BubaTronik\BubaTronik.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:01:05.04

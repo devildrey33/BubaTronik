@@ -1,0 +1,153 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Español (España, alfabetización internacional) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_DAP                 ICON                    "BubaTronik.ico"
+IDI_SMALL               ICON                    "small.ico"
+IDI_INICIO              ICON                    "Iconos\\Inicio.ico"
+IDI_MP3                 ICON                    "Iconos\\MP3PLayeR.ICO"
+IDI_DISCO               ICON                    "Iconos\\IDI_DISCO.ico"
+IDI_GENERO              ICON                    "Iconos\\IDI_GENERO.ico"
+IDI_GRUPO               ICON                    "Iconos\\IDI_GRUPO.ico"
+IDI_TIPO                ICON                    "Iconos\\IDI_TIPO.ico"
+IDI_C0                  ICON                    "Iconos\\IDI_C0.ico"
+IDI_C1                  ICON                    "Iconos\\IDI_C1.ico"
+IDI_C2                  ICON                    "Iconos\\IDI_C2.ico"
+IDI_C3                  ICON                    "Iconos\\IDI_C3.ico"
+IDI_ATRAS_N             ICON                    "iconos\\Atras_N.ico"
+IDI_ATRAS_R             ICON                    "Iconos\\Atras_R.ico"
+IDI_ATRAS_P             ICON                    "Iconos\\Atras_P.ico"
+IDI_PLAY_N              ICON                    "Iconos\\Play_N.ico"
+IDI_PLAY_P              ICON                    "Iconos\\Play_P.ico"
+IDI_PLAY_R              ICON                    "Iconos\\Play_R.ico"
+IDI_PAUSA_N             ICON                    "Iconos\\Pausa_N.ico"
+IDI_PAUSA_P             ICON                    "Iconos\\Pausa_P.ico"
+IDI_PAUSA_R             ICON                    "Iconos\\Pausa_R.ico"
+IDI_ADELANTE_N          ICON                    "Iconos\\Adelante_N.ico"
+IDI_ADELANTE_P          ICON                    "Iconos\\Adelante_P.ico"
+IDI_ADELANTE_R          ICON                    "Iconos\\Adelante_R.ico"
+IDI_STOP_N              ICON                    "Iconos\\Stop_N.ico"
+IDI_STOP_P              ICON                    "Iconos\\Stop_P.ico"
+IDI_STOP_R              ICON                    "Iconos\\Stop_R.ico"
+IDI_CANCION_ADELANTE    ICON                    "Iconos\\IDI_Cancion_adelante.ico"
+IDI_CANCION_ATRAS       ICON                    "Iconos\\IDI_Cancion_atras.ico"
+IDI_CANCION_STOP        ICON                    "Iconos\\IDI_Cancion_Stop.ico"
+IDI_CANCION_PLAY        ICON                    "Iconos\\IDI_Cancion_Play.ico"
+IDI_CANCION_PAUSA       ICON                    "Iconos\\IDI_Cancion_Pausa.ico"
+IDI_CANCION_REPEAT      ICON                    "Iconos\\IDI_Cancion_Repeat.ico"
+IDI_CANCION_SHUFLE      ICON                    "Iconos\\IDI_Cancion_Shufle.ico"
+IDI_MARCA_MENU          ICON                    "Iconos\\IDI_Marca_Menu.ico"
+IDI_BD                  ICON                    "Iconos\\IDI_BD.ico"
+IDI_BD_REVISAR          ICON                    "Iconos\\IDI_BD_Revisar.ico"
+IDI_BD_SELECCIONAR      ICON                    "Iconos\\IDI_BD_Seleccionar.ico"
+IDI_AYUDA               ICON                    "Iconos\\IDI_Ayuda.ico"
+IDI_ESTRELLA2           ICON                    "Iconos\\IDI_Estrella2.ico"
+IDI_ESTRELLA            ICON                    "Iconos\\IDI_Estrella.ico"
+IDI_LISTA               ICON                    "Iconos\\IDI_Lista.ico"
+IDI_LISTA_MODIFICARNOMBRE ICON                    "Iconos\\IDI_Lista_ModificarNombre.ico"
+IDI_LISTA_BUSCAR        ICON                    "Iconos\\IDI_Lista_Buscar.ico"
+IDI_COPIAR              ICON                    "Iconos\\IDI_Copiar.ICO"
+IDI_ORDEN               ICON                    "Iconos\\IDI_Orden.ico"
+IDI_LISTA_LLENA         ICON                    "Iconos\\IDI_Lista_Llenna.ico"
+IDI_LISTA_VACIA         ICON                    "Iconos\\IDI_Lista_Vacia.ico"
+IDI_GUARDAR             ICON                    "Iconos\\IDI_Guardar.ico"
+IDI_BD_BUSCAR           ICON                    "Iconos\\IDI_BD_Buscar.ico"
+IDI_PAUSA               ICON                    "Iconos\\IDI_Pausa.ico"
+IDI_PLAY                ICON                    "Iconos\\IDI_Play.ico"
+IDI_VIDEO               ICON                    "Iconos\\IDI_Video.ico"
+IDI_AUDIO               ICON                    "Iconos\\IDI_Audio.ico"
+IDI_OPCIONES            ICON                    "Iconos\\IDI_Opciones.ico"
+IDI_INICIO2             ICON                    "Iconos\\IDI_Inicio.ico"
+IDI_BDA                 ICON                    "Iconos\\IDI_BDA.ico"
+IDI_EQ                  ICON                    "Iconos\\IDI_EQ.ico"
+IDI_PANTALLA            ICON                    "Iconos\\IDI_Pantalla.ico"
+IDI_OPCIONESV           ICON                    "Iconos\\IDI_OpcionesV.ico"
+IDI_BDV                 ICON                    "Iconos\\IDI_BDV.ico"
+IDI_ELIMINAR            ICON                    "Iconos\\IDI_Eliminar.ico"
+IDI_LISTA_MODIFICARPISTA ICON                    "Iconos\\IDI_Lista_ModificarPista.ico"
+IDI_ELIMINAR2           ICON                    "Iconos\\IDI_Eliminar2.ico"
+IDI_UP                  ICON                    "Iconos\\IDI_up.ico"
+IDI_DOWN                ICON                    "Iconos\\IDI_Down.ico"
+IDI_BANDERA1            ICON                    "Iconos\\España.ico"
+IDI_BANDERA2            ICON                    "Iconos\\Catalunya.ico"
+IDI_CERRAR_R            ICON                    "Iconos\\IDI_Cerrar_R.ico"
+IDI_CERRAR_N            ICON                    "Iconos\\IDI_Cerrar.ico"
+IDI_RESTAURAR_N         ICON                    "Iconos\\IDI_Propiedades.ico"
+IDI_RESTAURAR_R         ICON                    "Iconos\\IDI_Restaurar.ico"
+IDI_MINIMIZAR_N         ICON                    "Iconos\\IDI_Minimizar.ico"
+IDI_MINIMIZAR_R         ICON                    "Iconos\\IDI_Minimizar_R.ico"
+IDI_VLC                 ICON                    "Iconos\\IDI_VLC.ico"
+IDI_M3U                 ICON                    "Iconos\\IDI_M3U.ico"
+IDI_CDAUDIO             ICON                    "Iconos\\IDI_CDAudio.ico"
+IDI_PISTAAUDIO          ICON                    "Iconos\\IDI_PistaAudio.ico"
+IDI_ERRORFATAL          ICON                    "Iconos\\IDI_ERRORFATAL.ico"
+IDI_FMOD                ICON                    "Iconos\\IDI_FMOD.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Español (España, alfabetización internacional) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

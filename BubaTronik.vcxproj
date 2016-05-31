@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B10F0386-2C63-4512-80A4-35DA6FD9C82A}</ProjectGuid>
+    <RootNamespace>DAP2009</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(MSBuildProjectDirectory)\..\DWL\Include;$(MSBuildProjectDirectory)\..\vlc-1.1.5\include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(MSBuildProjectDirectory)\..\DWL\Include;$(MSBuildProjectDirectory)\..\vlc-1.1.5\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ErrorReporting>None</ErrorReporting>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>
+      </ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>..\DWL\Debug\DWL.lib;libvlc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <AdditionalOptions>/validate_manifest %(AdditionalOptions)</AdditionalOptions>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>..\DWL\Release\DWL.lib;libvlc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="EnviarEmail.cpp" />
+    <ClCompile Include="Escena.cpp" />
+    <ClCompile Include="ObjetoEscena.cpp" />
+    <ClCompile Include="ObjetoEscenaFrame.cpp" />
+    <ClCompile Include="ObjetoEscenaTexto.cpp" />
+    <ClCompile Include="PlayerMenuEx.cpp" />
+    <ClCompile Include="VentanaDump.cpp" />
+    <ClCompile Include="VentanaEx.cpp" />
+    <ClCompile Include="VentanaLog.cpp" />
+    <ClCompile Include="VentanaMensaje.cpp" />
+    <ClCompile Include="VentanaMensaje_Actualizacion.cpp" />
+    <ClCompile Include="VentanaPlayerEx.cpp" />
+    <ClCompile Include="ArbolOpcionesBasicas.cpp" />
+    <ClCompile Include="ArbolBaseDatos.cpp" />
+    <ClCompile Include="ControlPresentacionEx.cpp" />
+    <ClCompile Include="ControlVolumen.cpp" />
+    <ClCompile Include="ListaCanciones.cpp" />
+    <ClCompile Include="Botonera.cpp" />
+    <ClCompile Include="ShufleRepeat.cpp" />
+    <ClCompile Include="ControlOscyloscope.cpp" />
+    <ClCompile Include="ControlesMediaPlayer.cpp" />
+    <ClCompile Include="ControlMediaPlayer.cpp" />
+    <ClCompile Include="ControlMarca.cpp" />
+    <ClCompile Include="ControlCerrarMinimizar.cpp" />
+    <ClCompile Include="ControlTeclaRapida.cpp" />
+    <ClCompile Include="ControlTiempoActual.cpp" />
+    <ClCompile Include="CancionFMOD.cpp" />
+    <ClCompile Include="InformacionArchivoEx.cpp" />
+    <ClCompile Include="SistemaFMOD.cpp" />
+    <ClCompile Include="SistemaMedia.cpp" />
+    <ClCompile Include="SistemaVLC.cpp" />
+    <ClCompile Include="AsociarArchivos.cpp" />
+    <ClCompile Include="BaseDatos.cpp" />
+    <ClCompile Include="BuscarActualizaciones.cpp" />
+    <ClCompile Include="ConfiguracionPlayer.cpp" />
+    <ClCompile Include="ThreadBuscarArchivos.cpp" />
+    <ClCompile Include="TipoArchivo.cpp" />
+    <ClCompile Include="SkinPlayer.cpp" />
+    <ClCompile Include="BubaTronik.cpp" />
+    <ClCompile Include="BubaTronikApp.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="VentanaPrincipalEx.cpp" />
+    <ClCompile Include="VentanaTranslucida.cpp" />
+    <ClCompile Include="VentanaTranslucidaLista.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EnviarEmail.h" />
+    <ClInclude Include="Escena.h" />
+    <ClInclude Include="ItemListaMedios.h" />
+    <ClInclude Include="NodoArbolBaseDatos.h" />
+    <ClInclude Include="ObjetoEscena.h" />
+    <ClInclude Include="ObjetoEscenaFrame.h" />
+    <ClInclude Include="PlayerMenuEx.h" />
+    <ClInclude Include="StrTp.h" />
+    <ClInclude Include="TDisco.h" />
+    <ClInclude Include="TGenero.h" />
+    <ClInclude Include="TGrupo.h" />
+    <ClInclude Include="TMedio.h" />
+    <ClInclude Include="TTipo.h" />
+    <ClInclude Include="VentanaDump.h" />
+    <ClInclude Include="VentanaEx.h" />
+    <ClInclude Include="VentanaLog.h" />
+    <ClInclude Include="VentanaMensaje.h" />
+    <ClInclude Include="VentanaMensaje_Actualizacion.h" />
+    <ClInclude Include="VentanaPlayerEx.h" />
+    <ClInclude Include="ArbolOpcionesBasicas.h" />
+    <ClInclude Include="ArbolBaseDatos.h" />
+    <ClInclude Include="ControlPresentacionEx.h" />
+    <ClInclude Include="ControlVolumen.h" />
+    <ClInclude Include="ListaCanciones.h" />
+    <ClInclude Include="Botonera.h" />
+    <ClInclude Include="ShufleRepeat.h" />
+    <ClInclude Include="ControlOscyloscope.h" />
+    <ClInclude Include="ControlesMediaPlayer.h" />
+    <ClInclude Include="ControlMediaPlayer.h" />
+    <ClInclude Include="ControlMarca.h" />
+    <ClInclude Include="ControlCerrarMinimizar.h" />
+    <ClInclude Include="ControlTeclaRapida.h" />
+    <ClInclude Include="ControlTiempoActual.h" />
+    <ClInclude Include="CancionFMOD.h" />
+    <ClInclude Include="InformacionArchivoEx.h" />
+    <ClInclude Include="SistemaFMOD.h" />
+    <ClInclude Include="SistemaMedia.h" />
+    <ClInclude Include="SistemaVLC.h" />
+    <ClInclude Include="fmod.h" />
+    <ClInclude Include="fmod.hpp" />
+    <ClInclude Include="fmod_codec.h" />
+    <ClInclude Include="fmod_dsp.h" />
+    <ClInclude Include="fmod_errors.h" />
+    <ClInclude Include="fmod_memoryinfo.h" />
+    <ClInclude Include="fmod_output.h" />
+    <ClInclude Include="stdint.h" />
+    <ClInclude Include="AnomaliasStrTp.h" />
+    <ClInclude Include="ArchivoBinarioPlayer.h" />
+    <ClInclude Include="AsociarArchivos.h" />
+    <ClInclude Include="BaseDatos.h" />
+    <ClInclude Include="BuscarActualizaciones.h" />
+    <ClInclude Include="ConfiguracionPlayer.h" />
+    <ClInclude Include="MetadatosTag.h" />
+    <ClInclude Include="ThreadBuscarArchivos.h" />
+    <ClInclude Include="TipoArchivo.h" />
+    <ClInclude Include="Unidades_de_Disco.h" />
+    <ClInclude Include="SkinPlayer.h" />
+    <ClInclude Include="BubaTronikApp.h" />
+    <ClInclude Include="Idioma.h" />
+    <ClInclude Include="Teclado.h" />
+    <ClInclude Include="ConfigBubaTronik.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Definiciones.h" />
+    <ClInclude Include="DimensionesFijas.h" />
+    <ClInclude Include="IDS_Definidas.h" />
+    <ClInclude Include="VentanaPrincipalEx.h" />
+    <ClInclude Include="VentanaTranslucida.h" />
+    <ClInclude Include="VentanaTranslucidaLista.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Adelante_N.ico" />
+    <None Include="Iconos\Adelante_P.ico" />
+    <None Include="Iconos\Adelante_R.ico" />
+    <None Include="Iconos\Atras_N.ico" />
+    <None Include="Iconos\Atras_P.ico" />
+    <None Include="Iconos\Atras_R.ico" />
+    <None Include="BubaTronik.ico" />
+    <None Include="Iconos\Catalunya.ico" />
+    <None Include="Iconos\España.ico" />
+    <None Include="Iconos\icon2.ico" />
+    <None Include="Iconos\IDI_Audio.ico" />
+    <None Include="Iconos\IDI_Ayuda.ico" />
+    <None Include="Iconos\IDI_BD.ico" />
+    <None Include="Iconos\IDI_BD_Buscar.ico" />
+    <None Include="Iconos\IDI_BD_Revisar.ico" />
+    <None Include="Iconos\IDI_BD_Seleccionar.ico" />
+    <None Include="Iconos\IDI_BDA.ico" />
+    <None Include="Iconos\IDI_BDV.ico" />
+    <None Include="Iconos\IDI_C0.ico" />
+    <None Include="Iconos\IDI_C1.ico" />
+    <None Include="Iconos\IDI_C2.ico" />
+    <None Include="Iconos\IDI_C3.ico" />
+    <None Include="Iconos\IDI_Cancion_adelante.ico" />
+    <None Include="Iconos\IDI_Cancion_atras.ico" />
+    <None Include="Iconos\IDI_Cancion_Pausa.ico" />
+    <None Include="Iconos\IDI_Cancion_Play.ico" />
+    <None Include="Iconos\IDI_Cancion_Repeat.ico" />
+    <None Include="Iconos\IDI_Cancion_Shufle.ico" />
+    <None Include="Iconos\IDI_Cancion_Stop.ico" />
+    <None Include="Iconos\IDI_CDAudio.ico" />
+    <None Include="Iconos\IDI_Cerrar.ico" />
+    <None Include="Iconos\IDI_Cerrar_R.ico" />
+    <None Include="Iconos\IDI_Copiar.ICO" />
+    <None Include="Iconos\IDI_Disco.ico" />
+    <None Include="Iconos\IDI_Down.ico" />
+    <None Include="Iconos\IDI_Eliminar.ico" />
+    <None Include="Iconos\IDI_Eliminar2.ico" />
+    <None Include="Iconos\IDI_EQ.ico" />
+    <None Include="Iconos\IDI_ERRORFATAL.ico" />
+    <None Include="Iconos\IDI_Estrella.ico" />
+    <None Include="Iconos\IDI_Estrella2.ico" />
+    <None Include="Iconos\IDI_FMOD.ico" />
+    <None Include="Iconos\IDI_Genero.ico" />
+    <None Include="Iconos\IDI_Grupo.ico" />
+    <None Include="Iconos\IDI_Guardar.ico" />
+    <None Include="Iconos\IDI_Inicio.ico" />
+    <None Include="Iconos\IDI_Lista.ico" />
+    <None Include="Iconos\IDI_Lista_Buscar.ico" />
+    <None Include="Iconos\IDI_Lista_Llenna.ico" />
+    <None Include="Iconos\IDI_Lista_ModificarNombre.ico" />
+    <None Include="Iconos\IDI_Lista_ModificarPista.ico" />
+    <None Include="Iconos\IDI_Lista_Vacia.ico" />
+    <None Include="Iconos\IDI_M3U.ico" />
+    <None Include="Iconos\IDI_Marca_Menu.ico" />
+    <None Include="Iconos\IDI_Minimizar.ico" />
+    <None Include="Iconos\IDI_Minimizar_R.ico" />
+    <None Include="Iconos\IDI_Opciones.ico" />
+    <None Include="Iconos\IDI_OpcionesV.ico" />
+    <None Include="Iconos\IDI_Orden.ico" />
+    <None Include="Iconos\IDI_Pantalla.ico" />
+    <None Include="Iconos\IDI_Pausa.ico" />
+    <None Include="Iconos\IDI_PistaAudio.ico" />
+    <None Include="Iconos\IDI_Play.ico" />
+    <None Include="Iconos\IDI_Propiedades.ico" />
+    <None Include="Iconos\IDI_Restaurar.ico" />
+    <None Include="Iconos\IDI_Tipo.ico" />
+    <None Include="Iconos\IDI_up.ico" />
+    <None Include="Iconos\IDI_Video.ico" />
+    <None Include="Iconos\IDI_VLC.ico" />
+    <None Include="Iconos\Inicio.ico" />
+    <None Include="Iconos\MP3PLayeR.ICO" />
+    <None Include="Iconos\Pausa_N.ico" />
+    <None Include="Iconos\Pausa_P.ico" />
+    <None Include="Iconos\Pausa_R.ico" />
+    <None Include="Iconos\Play_N.ico" />
+    <None Include="Iconos\Play_P.ico" />
+    <None Include="Iconos\Play_R.ico" />
+    <None Include="small.ico" />
+    <None Include="Iconos\Stop_N.ico" />
+    <None Include="Iconos\Stop_P.ico" />
+    <None Include="Iconos\Stop_R.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BubaTronik.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="IdiomaCastellano\IdiomaCastellano.vcxproj">
+      <Project>{1d80264b-b8db-427c-a18f-08a16a97eae8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="IdiomaCatala\IdiomaCatala.vcxproj">
+      <Project>{a5e9f805-c695-4886-82bd-8244fd6ea5a2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

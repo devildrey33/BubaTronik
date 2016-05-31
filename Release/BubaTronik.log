@@ -1,0 +1,51 @@
+﻿Compilación iniciada a las 29/05/2014 0:09:16.
+     1>Proyecto "C:\devildrey33\C++\BubaTronik 0.61\BubaTronik\BubaTronik.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\BubaTronik.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ArbolBaseDatos.cpp ArbolOpcionesBasicas.cpp AsociarArchivos.cpp BaseDatos.cpp Botonera.cpp BubaTronik.cpp BubaTronikApp.cpp BuscarActualizaciones.cpp CancionFMOD.cpp ConfiguracionPlayer.cpp ControlCerrarMinimizar.cpp ControlMarca.cpp ControlMediaPlayer.cpp ControlOscyloscope.cpp ControlPresentacionEx.cpp ControlTeclaRapida.cpp ControlTiempoActual.cpp ControlVolumen.cpp ControlesMediaPlayer.cpp EnviarEmail.cpp Escena.cpp InformacionArchivoEx.cpp ListaCanciones.cpp ObjetoEscena.cpp ObjetoEscenaFrame.cpp ObjetoEscenaTexto.cpp PlayerMenuEx.cpp ShufleRepeat.cpp SistemaFMOD.cpp SistemaMedia.cpp SistemaVLC.cpp SkinPlayer.cpp ThreadBuscarArchivos.cpp VentanaDump.cpp VentanaEx.cpp VentanaLog.cpp VentanaMensaje.cpp VentanaMensaje_Actualizacion.cpp VentanaPlayerEx.cpp VentanaPrincipalEx.cpp VentanaTranslucidaLista.cpp
+         ArbolBaseDatos.cpp
+         ArbolOpcionesBasicas.cpp
+         AsociarArchivos.cpp
+         BaseDatos.cpp
+         Botonera.cpp
+         BubaTronik.cpp
+     1>C:\devildrey33\C++\BubaTronik 0.61\DWL\Include\DWLAplicacion.h(156): warning C4996: 'GetVersionExW': se declaró desusado
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442) : vea la declaración de 'GetVersionExW'
+                 C:\devildrey33\C++\BubaTronik 0.61\DWL\Include\DWLAplicacion.h(151) : durante la compilación de la función miembro de plantilla de clase 'void DWL::DWLSO<BubaTronikApp>::_Iniciar(void)'
+                 C:\devildrey33\C++\BubaTronik 0.61\DWL\Include\DWLAplicacion.h(205) : vea la referencia a la creación de instancias de plantilla de función 'void DWL::DWLSO<BubaTronikApp>::_Iniciar(void)' que se está compilando
+                 C:\devildrey33\C++\BubaTronik 0.61\DWL\Include\DWLAplicacion.h(214) : vea la referencia a la creación de instancias de plantilla de clase 'DWL::DWLSO<BubaTronikApp>' que se está compilando
+                 c:\devildrey33\c++\bubatronik 0.61\bubatronik\BubaTronikApp.h(132) : vea la referencia a la creación de instancias de plantilla de clase 'DWL::DWL_Iniciar<BubaTronikApp>' que se está compilando
+         BubaTronikApp.cpp
+         BuscarActualizaciones.cpp
+         CancionFMOD.cpp
+         ConfiguracionPlayer.cpp
+         ControlCerrarMinimizar.cpp
+         ControlMarca.cpp
+         ControlMediaPlayer.cpp
+         ControlOscyloscope.cpp
+         ControlPresentacionEx.cpp
+         ControlTeclaRapida.cpp
+         ControlTiempoActual.cpp
+         ControlVolumen.cpp
+         ControlesMediaPlayer.cpp
+         EnviarEmail.cpp
+         Compilando...
+         Escena.cpp
+         InformacionArchivoEx.cpp
+         ListaCanciones.cpp
+         ObjetoEscena.cpp
+         ObjetoEscenaFrame.cpp
+         ObjetoEscenaTexto.cpp
+         PlayerMenuEx.cpp
+         ShufleRepeat.cpp
+         SistemaFMOD.cpp
+         SistemaMedia.cpp
+         SistemaVLC.cpp
+         SkinPlayer.cpp
+         ThreadBuscarArchivos.cpp
+         VentanaDump.cpp
+         VentanaEx.cpp
+     1>Compilación del proyecto terminada "C:\devildrey33\C++\BubaTronik 0.61\BubaTronik\BubaTronik.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:57.84

@@ -1,0 +1,14 @@
+﻿Compilación iniciada a las 14/03/2014 13:37:50.
+     1>Proyecto "C:\devildrey33\C++\BubaTronik 0.61\BubaTronik\IdiomaCatala\IdiomaCatala.vcxproj" en el nodo 4 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D IDIOMACASTELLANO_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt IdiomaCatala.cpp
+         IdiomaCatala.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\Idiomas/IdiomaCatala.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\..\Idiomas/IdiomaCatala.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\..\Idiomas/IdiomaCatala.lib" /MACHINE:X86 /SAFESEH /DLL .\Release/IdiomaCatala.obj
+            Creando biblioteca .\..\Idiomas/IdiomaCatala.lib y objeto .\..\Idiomas/IdiomaCatala.exp
+         IdiomaCatala.vcxproj -> C:\devildrey33\C++\BubaTronik 0.61\BubaTronik\IdiomaCatala\.\..\Idiomas\IdiomaCatala.dll
+     1>Compilación del proyecto terminada "C:\devildrey33\C++\BubaTronik 0.61\BubaTronik\IdiomaCatala\IdiomaCatala.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:04.14

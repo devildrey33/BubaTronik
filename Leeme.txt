@@ -1,0 +1,175 @@
++Versión 0.61 [26/11/2010]
+ - LibVlc actualizada a la versión 1.1.5
+ - Solucionado que al ejecutar medios del explorador no se reproduzcan si no se esta reproduciendo nada.
+ - Reparado EditarNombre para canciones de un CD de audio que no funcionaba correctamente.
+ - Reparada la notificación de autoinserción. Ahora se actualizara la base de datos cuando se inserte un disco/cd con medios.
+ - Reparado mensaje de error que advierte de que la unidad no esta lista.
+ - Reparada lista de tipos en las opciones que podia provocar un error grave si se manipulaban varias veces.
+ - El thread del oscyloscope ahora funciona de forma segura y no se deja instancias encendidas al minimizar.
+ - Al editar el nombre o la pista de un medio desde la lista de canciones, se modificara en la base de datos.
+ - Se ha eliminado el sistema antiguo de logs.
+ - Las columnas de la lista se adaptan según tengan 2,3,4 digitos en la pista, y según el tiempo si es formato HH:MM:SS o MM:SS
+ - El reproductor abre y reproduce archivos con extensión crdownload. Estos archivos son descargas de google chrome, y si por ejemplo estamos descargando un video podemos forzar su reproducción mientras se esta descargando. NOTA : no se ha enlazado la extension crdownload al reproductor, por lo que habra que asociarlo manualmente. (TODO ESTO SE ENCUENTRA EN FASE BETA)
+ - Solucionado error grave al abrir una segunda instancia del reproductor sin parámetros.
+ - Las listas de estilos del menú principal ahora quedan ordenadas por orden alfabetico (FONG).
+ - Ahora se guarda la ultima selección de listas aleatorias en la pantalla de inicio.
+ - Reimplementado el sistema de dumps que no acababa de funcionar correctamente. Esperemos que ahora mande los informes de errores siempre.
+ - Solucionado error al escanear un medio por el cual si ese medio tiene un frame del tag con 0 bytes de datos petaba el reproductor, y no mandaba el informe de errores.
+ - Retocado sistema de busqueda nuevamente. Se han añadido 2 opciones nuevas que pedira por cada directorio que quieras escanear.
+ - Se ha retocado el control que muestra la lista de directorios del sistema para que pueda tener texto en negrita y en cursiva. Ademas tambien tiene desactivados aquellos directorios que no deberias escanear.
+ - Añadido soporte para arrastrar y soltar de windows (ahora puedes arrastrar incluso directorios enteros)
+ - Solucionado error de pintado en el ControlPresentacion que aveces solapaba 2 lineas en una.
+ - Traduccion al catalan al 100%
+ - Ahora se pueden guardar listas m3u
+
+-------------
+
++Versión 0.60 [30/10/2010]
+ - Retocada la forma de tratar nuevos medios añadiendolos desde el explorador. Si haces dobleclick en un archivo asociado al reproductor y el reproductor ya se esta ejecutando pasara lo siguente :
+    Si no se esta reproduciendo nada o esta en pausa , se añadira a la lista y se abrira el nuevo medio.
+    Si se esta reproduciendo alguna cosa, se añadira el medio a la lista sin ponerlo a reproducir.
+ - Retocado el sistema de redimension de las ventanas para que funcione perfectamente en windows 7 con sus efectos de medio maximizacion. 
+ - Añadido nuevo sistema de soporte de errores que guarda un archivo dump si el programa tiene una excepción, y lo mandara a devildrey33.es con tu permiso.
+ - Solucionado problema que no permite actualizar el reproductor bajo windows vista y windows 7 si no se usan privilegios de administrador al ejecutar el reproductor.
+   Por desgracia los que tengan BubaTronik 0.57 funcionando bajo windows vista/7 sin privilegios de administrador, recibiran un error fatal al actualizar....
+ - LibVlc actualizada a la versión 1.1.4
+ - Re-Implementado el sistema que controlaba las extensiones utilizables del reproductor para dar en un futuro la posibilidad de agregar o quitar extensiones.
+ - Las actualizaciones ya no seran obligadas si tienes marcada la opcion buscar actualizaciones. Ahora se mostrara un dialogo que te permitira descargar e instalar la actualizacion si asi lo deseas.
+ - Solucionado problema al hacer pantalla completa en los videos, que recibia dobleclicks de mas. Si por ejemplo haciamos 3 clicks seguidos el reproductor lo interpretaba como dos dobleclicks, con lo que se maximizaba y se volvia a restaurar.
+ - Solucionados problemas graficos con el ControlPresentacionEx y sus controles hijos. Ahora se calculan correctamente las regiones de los controles hijos.
+ - Optimizados repintados de las escenas del ControlPresentacionEx.
+ - Retocado EdicionDesplegable para mostrar correctamente el estado del boton. Y tambien se han retocado los eventos para que queden como una combobox estandar de windows.
+ - Las barras de progreso y desplazamiento ahora tienen todas 2 pixeles de borde.
+ - Retocados varios iconos para que queden centrados en sus respectivos botones.
+ - Se ha des-habilitado la opcion : "Obtener teclado cuando el reproductor no este activo." ya que no funciona como deberia.
+ - Solucionado error de repintado en los botones extra de las barras de scroll.
+ - Se ha simplificado el interface gráfico para buscar nuevos medios reproducibles, de forma que sea mas fácil realizar dicha tarea. 
+ - La revision de coincidencias entre geneors, grupos y discos ahora se hace automáticamente si tienes marcada la opción "Analisis post-escaneo"
+ - Re-implementado el sistema para crear escenas que contienen controles, imagenes, y textos para que los objetos puedan ser alineados de varias formas.
+ - Retocado el pintado de links dentro del texto, ya que en windows 7 se creaba un efecto de texto doble que dejaba el texto poco nitido.
+ - Rediseñada la sección de inicio para dar mas información en menos espacio, que ademas da algunas sugerencias.
+ - Retocadas varias imagenes del reproductor para que se muestren mejor.
+ - Implementado sistema para mostrar ayuda en cualquier control y link mediante tooltips.
+ - Rediseñada interfaz para añadir texto a la escena, ahora se puede agregar texto alineado de varias formas.
+ - Solucionado bug con la barra de titulo de windows, que no movia la ventana del reproductor cuando se arrastraba el area con un degradado gris.
+ - Añadido directorio \LUA de la libvlc (Si no existe al cargar algunos FLV y avis provocan una violación de acceso en la memoria, que no se puede depurar desde MSVC10).
+ - Solucionado problema que asignaba el foco a la ventana del reproductor cada vez que se acababa una canción.
+ - Creada ventana para contener registros de log utilizando el nuevo control DWLEdicionEx en modo multilinea y a todo color (DESHABILITADO).
+ - Eliminada opción de la lista inicial : "Canciones mas escuchadas" ya que si habia 5 tipos de lista, existia un 20% de probabilidades de que salieran las mas escuchadas, con lo que al final siempre seran las mismas.
+ - Añadido soporte básico para listas M3U, ahora estas se mostraran en la base de datos (si la lista contiene medios invalidos estos no se mostraran en la base de datos, si todos los medios de la lista no son validos, directamente esa lista no aparecera).
+ - Al borrar medios de la base de datos se te preguntara tambien para borrarlos del disco.
+ - SOLUCIONADO todo el tema de asociaciones de archivos que no funcionaba correctamente en windows 7
+ - Añadido des-instalador (puedes encontrarlo en panel de control -> agregar / quitar programas).
+ - Añadido soporte para reproducir CD's de audio.
+ - El reproductor ahora soporta 52 extensiones en total : ASF, AMV, AVI, CDA, DIVX, DV, FLAC, FLV, GFX, IT, MKV, MID, MOV, MPEG, MPG, MPV, MPEG1, MPEG2, MPEG4, MPE, MP2, MP3, MP4, MP4V, MTS, M1V, M2T, M2TS, M2V, M3U, M4V, MOD, NSV, NUV, OGG, OGM, OGV, OGX, PS, RM, RMVB, SDP, S3M, TOD, TS, TTS, VOB, VRO, WAV, WEBM, WMA, WMV, XM.
+ - Analisis de los medios rediseñado, ahora se detectaran correctamente aquellos medios que tienen una extensión de video pero solo tienen audio.
+ - Se ha implementado que bubatronik aparezca en programas predeterminados. Ahora puedes elegir BubaTronik como reproductor predeterminado desde windows.
+ - Reparados varios menús que no apuntaban a ninguna acción.
+ - Añadidos varios tooltip de ayuda en los controles.
+ - Retocado sistema a la hora de mostrar pistas de los medios. Si no tiene pista no se mostrara en la BD (antes salia con -1), y en la lista aparecera como pista 0.
+ - Aladido menú para abrir la carpeta del medio seleccionado.
+ - Diseñada pantalla "Sobre bubatronik..." con información extra acerca del reproductor.
+
+-------------
+
++Version 0.57 [12/01/2010]
+ - Solucionado memory leak al mover la ventana.
+ - Implementadas mejoras para windows vista y windows 7 :
+   - Se ha movido la BD y el archivo de configuraciones al directorio AppData del ordenador, para no tener que arrancar como administrador.
+     Al tomar esta medida la base de datos antigua queda descartada, y hay que volver a crear una nueva base de datos.
+     Como alternativa puedes mover la base de datos situada en "\Archivos de Programa\BubaTronik\BD.BTR" a la carpeta 
+     "\Documents and Settings\All Users\Datos de programa\BubaTronik\" (solo winxp) y volveras a tener la misma base de datos sin ningun
+     problema.
+   - Se ha implementado soporte para las barras de titulo del windows vista y windows 7.
+   - El reproductor aun esta en fase experimental bajo windows vista y windows 7, sobretodo los calculos para maximizar y adaptar la ventana   
+     a ciertas posiciones (Debido a un problema con mis discos duros no puedo avanzar con estos sistemas operativos).
+ - Reparado bug al hacer la pantalla completa en un video cuando el reproductor esta maximizado, que no mostraba correctamente los controles.
+ - Retocado el instalador / actualizador para que ahora pueda mostrar las notas de la version y crear un acceso directo.
+ - Se han deshabilitado las teclas globales ya que no funcionaban correctamente (pendiente de revisión)
+ 
+
+-------------
+
++Version 0.56 [28/11/2009]
+ - Se ha solucionado un problema con el repintado del control ShufleRepeat
+ - El modulo para mostrar coincidencias no se mostraba correctamente, actualmente se ha reparado el error.
+ - Las barras de scroll no actualizaban correctamente el controlpresentacion.
+ - Al salir del modo pantalla completa el mouse ya no se quedara mas escondido.
+
+ 
+-------------
+
++Version 0.55 [23/11/2009]
+ - Teminado el sistema de skins, ahora se dispone de 4 previsualizaciones. 
+   Ademas como de costumbre puedes crearte un skin partiendo de otro y editando los valores RGB dentro de el.
+ - Se ha retocado el sistema para hacer pantalla completa con videos, y para maximizar la ventana.
+ - Las opciones han sido reorganizadas, y se han añadido varios iconos nuevos para las nuevas opciones.
+ - Se ha mejorado el controlpresentacionex para poder mostrar palabras en negrita.
+ - Se ha añadido un sistema para revisar la base de datos y eliminar medios que ya no existan.
+ - Actualizada la libvlc a la ultima version 1.0.3.
+ - Ahora existe la posibilidad para deshabilitar que los tooltips muestren datos de los tags.
+ - Añadido sistema para poder cargar otros idiomas, por el momento se dispone de Castellano y Catalan. 
+   Aun hay partes que solo se veran en castellano, estas partes estan pendientes de validacion / modificacion, y hasta que no esten completas
+   no seran actualizadas para funcionar con las dlls de los idiomas.
+ - Añadida opcion para cambiar el ancho de las barritas.
+ - Añadidos controles para mover el orden de las canciones en la lista.
+ - Añadida opcion que permite ocultar automaticamente el mouse cuando se reproduce video.
+ - Retocado el thread del oscyloscopio, ahora es mas eficiente y rapido.
+ - Actualizados los iconos del reproductor, ahora el icono principal se vera a una resolucion aceptable y no a 16*16
+ - Retocados los combo box para que admitan iconos, esencialmente para la seleccion de idiomas.
+ - Se ha solucionado un problema con los scrolls que no seguian bien el raton cuando se salia de su control.
+ - Retocado el algoritmo para el cambio de tamaño de la ventana, ahora la ventana no se movera si esta en su tamaño minimo.
+ - Ahora todos los controles quedan resaltados cuando el mouse esta encima.
+ - Se ha remplazado el dialogo de buscar directorios por defecto del windows, por el nuevo control DWLExplorarDirectorios.
+ - Se ha actualizado el sistema para detectar nuevas actualizaciones, ahora este descargara las actualizaciones y las instalara el solo.
+ - Se ha creado un instalador autoextraible que contiene el reproductor comprimido dentro listo para ser extraido en cualquier directorio.
+
+ 
+-------------
+
++Version 0.5b [07/11/2009]
+ - Añadido sistema para detectar nuevas actualizaciones de forma automática.
+ - Se ha unificado la base de datos de vídeo y audio para que solo quede una.
+ - Añadidas teclas de acceso rapido para : play, pausa, stop, volumen, avanzar/retroceder medio, etc..
+ - Solucionadas varias perdidas de memoria al destruir ciertos controles extendidos de la DWL 2009.
+ - Añadido soporte para varios idiomas, de momento solo esta el castellano.
+ - Añadido control para ver el tiempo actual y el tiempo restante.
+ - Se ha retocado la disposición de los controles para que el volumen sea mas alto. 
+
+
+------------- 
+
++Version 0.41b
+ - Solucionado bug en modo pantalla completa que aveces mostraba la barra de inicio al mostrar los controles.
+ - Retocado el modo en que el explorador ejecuta el reproductor, de forma que ahora tenemos 2 opciones :
+   Añadir a lista (por defecto), y Reproducir.
+ - Los controles de pantalla completa ahora se muestran segun el skin del reproductor.
+ - Añadidas algunas opciones nuevas.
+ - Implementada ventana para mostrar mensajes de aviso.
+ - Reparado bug que podia hacer sonar una cancion mientras se reproducia video.
+
+
+-------------
+
++Version 0.4b
+ - Solucionado bug con el directorio de los plugins, el cual hacia petar el reproductor con la gran mayoria de avis.
+ - Enlazados los menus para crear listas aleatorias.
+ - Se ha añadido soporte en modo pantalla completa para los controles estandar.
+ - Ahora el reproductor es maximizable.
+ - Implementados controles basicos par la ventana (maximizar / minimizar / cerrar)
+
+
+-------------
+
++Version 0.3b
+ - Capacidad de reproducir audio y video.
+ - Se pueden asociar los archivos de audio y video para que el explorador ejecute este reproductor al pinchar en una cancion/video.
+ - Los tooltips informativos muestran todos los datos del medio, incluyendo tags.
+  
+
+-------------
+
+
+Este reproductor se basa en 2 librerias para reproducir medios
+- AUDIO : FMODEX [www.fmod.org]
+- VIDEO : LIBVLC [www.videolan.org]
